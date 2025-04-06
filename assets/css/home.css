@@ -271,8 +271,8 @@ div.mobile-menu button.link {
     font-size: 20px;
     cursor: pointer;
 }
-@media (hover: hover) {
+@media (hover: none) {
     .cursor {
-        display: block;
+        display: none;
     }
 }
