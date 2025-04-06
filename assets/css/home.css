@@ -42,9 +42,7 @@ div.features {
     justify-content: center;
     flex-wrap: wrap;
 }
-div.features > div.feature:hover {
-    transform: scale(1.0125) translateY(-5px);
-}
+
 div.features > div.feature {
     width: 200px;
     height: 200px;
@@ -144,10 +142,7 @@ div.features > div.feature > h2 {
     position: relative;
     transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
-.add-bot:hover {
-    border: solid rgba(41, 41, 41, 0.7) 1px;
-    box-shadow: orange 0 0 10px;
-}
+
 div.center {
     display: flex;
     justify-content: center;
@@ -272,8 +267,15 @@ div.mobile-menu button.link {
     cursor: pointer;
 }
 @media (hover: hover) {
+    div.features > div.feature:hover {
+        transform: scale(1.0125) translateY(-5px);
+    }
     .cursor {
         display: block; /* Pokazuje kursor na urządzeniach z myszką */
+    }
+    .add-bot:hover {
+        border: solid rgba(41, 41, 41, 0.7) 1px;
+        box-shadow: orange 0 0 10px;
     }
 }
 
