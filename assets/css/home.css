@@ -270,17 +270,17 @@ div.mobile-menu button.link {
     div.features > div.feature:hover {
         transform: scale(1.0125) translateY(-5px);
     }
-    .cursor {
-        display: block; /* Pokazuje kursor na urządzeniach z myszką */
-    }
     .add-bot:hover {
         border: solid rgba(41, 41, 41, 0.7) 1px;
         box-shadow: orange 0 0 10px;
+    }
+    .cursor {
+        display: block;
     }
 }
 
 @media (hover: none) {
     .cursor {
-        display: none; /* Ukrywa kursor na urządzeniach bez myszy (np. telefonach) */
+        display: none;
     }
 }
