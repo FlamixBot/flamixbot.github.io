@@ -71,7 +71,7 @@ div.features > div.feature > h2 {
     transform: translate(-50%, -50%);
     transition: transform 0.1s ease;
     z-index: -999;
-    display: none;
+    display: block;
 }
 .start-countdown {
     display: flex;
@@ -271,8 +271,14 @@ div.mobile-menu button.link {
     font-size: 20px;
     cursor: pointer;
 }
+@media (hover: hover) {
+    .cursor {
+        display: block; /* Pokazuje kursor na urządzeniach z myszką */
+    }
+}
+
 @media (hover: none) {
     .cursor {
-        display: block;
+        display: none; /* Ukrywa kursor na urządzeniach bez myszy (np. telefonach) */
     }
 }
