@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
             clearInterval(countdown);
             document.querySelector('.start-countdown').innerHTML = '<h1>Countdown finished!</h1>';
         }
-    }, 100);
+    }, 500);
 
     const digits = document.querySelectorAll('.start-countdown .digit');
     digits.forEach(digit => {

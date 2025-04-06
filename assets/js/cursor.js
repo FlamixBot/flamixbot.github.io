@@ -34,6 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('mouseup', () => {
         scaleTimeout = setTimeout(() => {
             cursor.style.transform = 'scale(1)';
-        }, 200);
+        }, 300);
     });
 });
