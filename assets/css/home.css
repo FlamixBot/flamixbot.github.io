@@ -71,7 +71,7 @@ div.features > div.feature > h2 {
     transform: translate(-50%, -50%);
     transition: transform 0.1s ease;
     z-index: -999;
-    display: block;
+    display: none;
 }
 .start-countdown {
     display: flex;
@@ -273,6 +273,6 @@ div.mobile-menu button.link {
 }
 @media (hover: none) {
     .cursor {
-        display: none;
+        display: block;
     }
 }
